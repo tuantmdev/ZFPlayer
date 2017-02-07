@@ -27,6 +27,8 @@
 #import "ZFPlayerModel.h"
 #import "ZFPlayerControlViewDelegate.h"
 
+@class AVPlayer;
+
 @protocol ZFPlayerDelegate <NSObject>
 @optional
 /** 返回按钮事件 */
@@ -53,6 +55,8 @@ typedef NS_ENUM(NSInteger, ZFPlayerState) {
 };
 
 @interface ZFPlayerView : UIView <ZFPlayerControlViewDelagate>
+
+@property (nonatomic, strong, readonly) AVPlayer      *player;
 
 /** 视频model */
 /** 设置playerLayer的填充模式 */

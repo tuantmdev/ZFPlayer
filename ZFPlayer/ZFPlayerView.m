@@ -40,7 +40,7 @@ typedef NS_ENUM(NSInteger, PanDirection){
 @interface ZFPlayerView () <UIGestureRecognizerDelegate,UIAlertViewDelegate>
 
 /** 播放属性 */
-@property (nonatomic, strong) AVPlayer               *player;
+@property (nonatomic, strong, readwrite) AVPlayer    *player;
 @property (nonatomic, strong) AVPlayerItem           *playerItem;
 @property (nonatomic, strong) AVURLAsset             *urlAsset;
 @property (nonatomic, strong) AVAssetImageGenerator  *imageGenerator;
