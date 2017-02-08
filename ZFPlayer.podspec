@@ -10,7 +10,10 @@ Pod::Spec.new do |s|
     s.source       = { :git => 'https://github.com/renzifeng/ZFPlayer.git', :tag => s.version.to_s }
     s.source_files = 'ZFPlayer/**/*.{h,m}'
     s.resource     = 'ZFPlayer/ZFPlayer.bundle'
-    s.framework    = 'UIKit','MediaPlayer'
+    s.framework    = 'UIKit','MediaPlayer','QuartzCore'
+
     s.dependency 'Masonry'
+    s.dependency 'DTCoreText'
+
     s.requires_arc = true
 end
