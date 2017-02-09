@@ -7,13 +7,14 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		3E6CD13B1E4B3169000069EE /* ZFVideoPlayerCaption.m in Sources */ = {isa = PBXBuildFile; fileRef = 3E6CD1381E4B3169000069EE /* ZFVideoPlayerCaption.m */; };
+		3E6CD13C1E4B3169000069EE /* ZFVideoPlayerCaptionSRT.m in Sources */ = {isa = PBXBuildFile; fileRef = 3E6CD13A1E4B3169000069EE /* ZFVideoPlayerCaptionSRT.m */; };
 		4947F78F1BE996AC003093C8 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 4947F78E1BE996AC003093C8 /* main.m */; };
 		4947F7921BE996AC003093C8 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 4947F7911BE996AC003093C8 /* AppDelegate.m */; };
 		4947F79A1BE996AC003093C8 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 4947F7991BE996AC003093C8 /* Assets.xcassets */; };
 		4947F7A81BE996AC003093C8 /* PlayerTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 4947F7A71BE996AC003093C8 /* PlayerTests.m */; };
 		4947F7B31BE996AC003093C8 /* PlayerUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 4947F7B21BE996AC003093C8 /* PlayerUITests.m */; };
 		49CD65D11BF0C4EC0060DB9E /* MediaPlayer.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 49CD65D01BF0C4EC0060DB9E /* MediaPlayer.framework */; };
-		49F272801BF2330700FCC767 /* Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = 49F2727F1BF2330700FCC767 /* Info.plist */; };
 		6DFFA86AB7DE7145F8B2FDBB /* libPods-Player.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 15E3CE675A5AD72E88B7F01B /* libPods-Player.a */; };
 		CC220D4A1DB7B504001191C7 /* MMMaterialDesignSpinner.m in Sources */ = {isa = PBXBuildFile; fileRef = CC220D491DB7B504001191C7 /* MMMaterialDesignSpinner.m */; };
 		CC2877CC1D9B60760097CEDA /* UINavigationController+ZFPlayerRotation.m in Sources */ = {isa = PBXBuildFile; fileRef = CC2877C71D9B60760097CEDA /* UINavigationController+ZFPlayerRotation.m */; };
@@ -75,6 +76,10 @@
 /* Begin PBXFileReference section */
 		15E3CE675A5AD72E88B7F01B /* libPods-Player.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-Player.a"; sourceTree = BUILT_PRODUCTS_DIR; };
 		2200AEC72BC281E1988F0335 /* Pods-Player.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Player.debug.xcconfig"; path = "Pods/Target Support Files/Pods-Player/Pods-Player.debug.xcconfig"; sourceTree = "<group>"; };
+		3E6CD1371E4B3169000069EE /* ZFVideoPlayerCaption.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ZFVideoPlayerCaption.h; sourceTree = "<group>"; };
+		3E6CD1381E4B3169000069EE /* ZFVideoPlayerCaption.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ZFVideoPlayerCaption.m; sourceTree = "<group>"; };
+		3E6CD1391E4B3169000069EE /* ZFVideoPlayerCaptionSRT.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ZFVideoPlayerCaptionSRT.h; sourceTree = "<group>"; };
+		3E6CD13A1E4B3169000069EE /* ZFVideoPlayerCaptionSRT.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ZFVideoPlayerCaptionSRT.m; sourceTree = "<group>"; };
 		4947F78A1BE996AC003093C8 /* Player.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Player.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		4947F78E1BE996AC003093C8 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		4947F7901BE996AC003093C8 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
@@ -262,6 +267,10 @@
 		CC2CC6301CA24D4B0028BBDD /* ZFPlayer */ = {
 			isa = PBXGroup;
 			children = (
+				3E6CD1371E4B3169000069EE /* ZFVideoPlayerCaption.h */,
+				3E6CD1381E4B3169000069EE /* ZFVideoPlayerCaption.m */,
+				3E6CD1391E4B3169000069EE /* ZFVideoPlayerCaptionSRT.h */,
+				3E6CD13A1E4B3169000069EE /* ZFVideoPlayerCaptionSRT.m */,
 				CC2877C51D9B60760097CEDA /* Category */,
 				CC2CC6331CA24D4B0028BBDD /* ZFPlayer.bundle */,
 				CC2CC6541CA38A710028BBDD /* ZFPlayer.h */,
@@ -430,13 +439,13 @@
 		4947F7821BE996AC003093C8 /* Project object */ = {
 			isa = PBXProject;
 			attributes = {
-				LastUpgradeCheck = 0700;
+				LastUpgradeCheck = 0820;
 				ORGANIZATIONNAME = "任子丰";
 				TargetAttributes = {
 					4947F7891BE996AC003093C8 = {
 						CreatedOnToolsVersion = 7.0;
-						DevelopmentTeam = S23J948BYW;
-						ProvisioningStyle = Manual;
+						DevelopmentTeam = TMQ294RSXP;
+						ProvisioningStyle = Automatic;
 					};
 					4947F7A21BE996AC003093C8 = {
 						CreatedOnToolsVersion = 7.0;
@@ -475,7 +484,6 @@
 			files = (
 				CC2CC63C1CA24D4B0028BBDD /* ZFPlayer.bundle in Resources */,
 				4947F79A1BE996AC003093C8 /* Assets.xcassets in Resources */,
-				49F272801BF2330700FCC767 /* Info.plist in Resources */,
 				CC48ECD71C8863DB009CF0D0 /* Main.storyboard in Resources */,
 				CC6945AA1CB7F66300452D55 /* LaunchScreen.xib in Resources */,
 				CCE1C1401C9AA131004C95AC /* videoData.json in Resources */,
@@ -541,7 +549,7 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 			shellPath = /bin/sh;
-			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [[ $? != 0 ]] ; then\n    cat << EOM\nerror: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\nEOM\n    exit 1\nfi\n";
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n";
 			showEnvVarsInLog = 0;
 		};
 /* End PBXShellScriptBuildPhase section */
@@ -562,11 +570,13 @@
 				CC8693471CC9BF5E0037E71B /* ZFPVideoResolution.m in Sources */,
 				CC7D5E951D59AAAC000AC18A /* ASValueTrackingSlider.m in Sources */,
 				CC2CC63D1CA24D4B0028BBDD /* ZFPlayerControlView.m in Sources */,
+				3E6CD13B1E4B3169000069EE /* ZFVideoPlayerCaption.m in Sources */,
 				CC220D4A1DB7B504001191C7 /* MMMaterialDesignSpinner.m in Sources */,
 				CCEF1BF91CACB28E00B0DD78 /* ZFDownloadedCell.m in Sources */,
 				CC6FF40D1DB9DFB300222AAC /* ZFPlayerModel.m in Sources */,
 				CCE1C13E1C9AA128004C95AC /* ZFTableViewController.m in Sources */,
 				CC2877CD1D9B60760097CEDA /* UITabBarController+ZFPlayerRotation.m in Sources */,
+				3E6CD13C1E4B3169000069EE /* ZFVideoPlayerCaptionSRT.m in Sources */,
 				CC6FF3681DB4A32E00222AAC /* UIView+CustomControlView.m in Sources */,
 				CCEF1BF41CAA826900B0DD78 /* ZFDownloadingCell.m in Sources */,
 				CCE1C1381C9AA115004C95AC /* ZFPlayerCell.m in Sources */,
@@ -622,8 +632,10 @@
 				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
 				CLANG_WARN_EMPTY_BODY = YES;
 				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
 				CLANG_WARN_INT_CONVERSION = YES;
 				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
 				CLANG_WARN_UNREACHABLE_CODE = YES;
 				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
 				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
@@ -665,8 +677,10 @@
 				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
 				CLANG_WARN_EMPTY_BODY = YES;
 				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
 				CLANG_WARN_INT_CONVERSION = YES;
 				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
 				CLANG_WARN_UNREACHABLE_CODE = YES;
 				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
 				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
@@ -696,15 +710,15 @@
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_IDENTITY = "iPhone Developer";
 				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
-				DEVELOPMENT_TEAM = S23J948BYW;
+				DEVELOPMENT_TEAM = TMQ294RSXP;
 				GCC_PREFIX_HEADER = "";
 				INFOPLIST_FILE = Player/Info.plist;
 				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.renzifeng.Player;
 				PRODUCT_NAME = "$(TARGET_NAME)";
-				PROVISIONING_PROFILE = "24e511cc-5b10-4bde-8a6a-4f36abba21b5";
-				PROVISIONING_PROFILE_SPECIFIER = "IF wildcard profile";
+				PROVISIONING_PROFILE = "";
+				PROVISIONING_PROFILE_SPECIFIER = "";
 			};
 			name = Debug;
 		};
@@ -714,8 +728,8 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_IDENTITY = "iPhone Distribution";
-				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Distribution";
-				DEVELOPMENT_TEAM = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				DEVELOPMENT_TEAM = TMQ294RSXP;
 				GCC_PREFIX_HEADER = "";
 				INFOPLIST_FILE = Player/Info.plist;
 				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
