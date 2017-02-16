@@ -56,7 +56,7 @@ typedef NS_ENUM(NSInteger, ZFPlayerState) {
 
 @interface ZFPlayerView : UIView <ZFPlayerControlViewDelagate>
 
-@property (nonatomic, strong, readonly) AVPlayer      *player;
+@property (nonatomic, strong) AVPlayer      *player;
 
 /** 视频model */
 /** 设置playerLayer的填充模式 */
